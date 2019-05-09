@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*PAGE 2 - PHOTO GALLERY*/
+
+/*image view*/
+div.img {
+    margin: 5px;
+    border: 1px solid black;
+    float: left;
+    width: 200px;
+}
+
+/*when hovering over image*/
+div.img:hover {
+    border: 1px solid yellow;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.img1 {
+    margin: 5px;
+    border: 1px solid black;
+    float: left;
+    width: 400px;
+}
+
+/*when hovering over image*/
+div.img1:hover {
+    border: 1px solid yellow;
+}
+
+div.img1 img {
+    width: 100%;
+    height: auto;
+}
+
+/*descriptions of photos*/
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+/*image aligns*/
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+img.center {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#images{
+    text-align:center;
+}
+
+/*misc. styles*/
+
+span {
+	font-weight: bold;
+}
